@@ -6,10 +6,10 @@ if n==1:
 elif n==2:
     print(0,1)
 elif n>2:
-    print(0,1)
+    print(0,1,end=" ")
     for x in range(n-2):
         sum=f+s
-        print(sum)
+        print(sum,end=" ")
         f=s
         s=sum
 else:
